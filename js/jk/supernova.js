@@ -93,7 +93,9 @@ console.log ut resultatet.*/
 
 /* ' Single-line syntax: -- "untermined string literal - hvorfor? */
 
-if 
-    (duherjer);
-
-else; (hjem)
+var Alder = 18
+if (Alder<=16 ){
+    console.log("\nDu kan ta bilsertifikat \n")
+}else{
+    console.log("Du må sitte på")
+} 
