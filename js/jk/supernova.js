@@ -63,7 +63,7 @@ console.log(`${Topp2Array} ${variabel3}`)
 //simpleFunction()
 
 function getRandomNumber(){
-    return Math.round(Math.random() * 5)
+    return Math.floor(Math.random() * 5);
 }
 
 getRandomNumber(1-5 + 1)
@@ -72,10 +72,15 @@ console.log(getRandomNumber)
 
 function giveCompliment(){
     const compliments = [
-        "You're a wizard",
+        "You're a wizard! Harry?",
+        "What a strong Barbarian!",
+        "Now that's sneaky, Rogue!",
+        "I see nature has been kind to you, Druid",
         "THE BEST",
         "HAHA YOUR FUN",
         "KLARTE DU DET IGJEN?",
+        "YOU MUST BE A GENIUS!",
+        
     ]
 
 const randomIndex = Math.round(Math.random() * (compliments.length -1));
@@ -89,12 +94,12 @@ console.log(giveCompliment())
 
 /* ' Single-line syntax: -- "untermined string literal - hvorfor? */
 
-var Alder = 21
-var Alder2 = 16-17
+let Alder = 20
+let Alder2 = 16-17
 if (Alder>=18){
-    console.log("\nDu kan ta bilsertifikat \n")
+    console.log("\nDu kan kjøpe sprit \n")
 }else{Alder2<=18
-    console.log("'\nDu må sitte på\n")
+    console.log("'\nDu kan kjøpe øl\n")
 }
-//else if (Alder2) {"\nDu kan øvelseskjøre! \n"}
+//else if (Alder2) {"\nDrikkeru allerede?! \n"}
     
